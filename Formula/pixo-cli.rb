@@ -5,20 +5,20 @@
 class PixoCli < Formula
   desc "Pixo Platform CLI tool"
   homepage "https://github.com/PixoVR/pixo-golang-clients"
-  version "0.1.76"
+  version "0.1.77"
 
   on_macos do
     on_intel do
-      url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.76/pixo-golang-clients_Darwin_x86_64.tar.gz"
-      sha256 "4c35a0c0cf066468fc40ed0e8caf4644a1cc7224aa6fa64f5dec66293a69d3df"
+      url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.77/pixo-golang-clients_Darwin_x86_64.tar.gz"
+      sha256 "c42ba1eba9ae96f04f5d70830c13b93473634fc0a803a6e2791b144a232bab33"
 
       def install
         bin.install "pixo"
       end
     end
     on_arm do
-      url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.76/pixo-golang-clients_Darwin_arm64.tar.gz"
-      sha256 "486ab9b59993bcfa1291498f7a5db19caaaf92f1e2dbf5c2aedb9a6548d4bddf"
+      url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.77/pixo-golang-clients_Darwin_arm64.tar.gz"
+      sha256 "d0af28028353935ebecffd28be772b14eaab2ad6a1d975a6b7310fcd9177bb65"
 
       def install
         bin.install "pixo"
@@ -29,8 +29,8 @@ class PixoCli < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.76/pixo-golang-clients_Linux_x86_64.tar.gz"
-        sha256 "1f9359a531f3c5b99745f1c671a5847e2f5b039ddf74d0d3ffde386b739586e1"
+        url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.77/pixo-golang-clients_Linux_x86_64.tar.gz"
+        sha256 "d4ed124f0248e5c98c76bfa71ae67a98c232b76496ecd3d3723678f5830996e6"
 
         def install
           bin.install "pixo"
@@ -39,8 +39,8 @@ class PixoCli < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.76/pixo-golang-clients_Linux_arm64.tar.gz"
-        sha256 "64636930d7914de579721f2fc71a56af0125d5256107ae45124c2adb653c0eaa"
+        url "https://github.com/PixoVR/pixo-golang-clients/releases/download/0.1.77/pixo-golang-clients_Linux_arm64.tar.gz"
+        sha256 "69768cd4acdf24fe3d9a57602d35b7b860473977ee3993cc16d8b289c7445622"
 
         def install
           bin.install "pixo"
